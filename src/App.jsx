@@ -9,7 +9,7 @@ import laCosaSvg from './assets/svg/imagen4.svg'
 function App() {
   const [phraseViwe, setphraseViwe] = useState(Math.floor(Math.random()*100));
   const [fondo, setFondo] = useState(Math.floor(Math.random()*4));
-  const [svgImgs, setsvgImgs] = useState(second)
+  // const [svgImgs, setsvgImgs] = useState(second);
 
   const changePhraseAndFondo = () => {
     const newPhrase = Math.round(Math.random()*100);
