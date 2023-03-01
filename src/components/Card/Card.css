@@ -1,0 +1,38 @@
+/* Frame 1 */
+
+
+/* Auto layout */
+
+.card {
+  display: flex;
+  flex-direction: column;
+
+  /* padding: 70px 33px; */
+  margin-bottom: 2vh;
+  gap: 10px;
+
+  width: 30vw;
+  min-width: 200px;
+  /* height: 245px; */
+
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0.33) 100%);
+  border-radius: 39px;
+
+  /* Inside auto layout */
+
+  /* flex: none; */
+  order: 0;
+  flex-grow: 0;
+
+  /* width: 386.52px; */
+  /* height: 105px; */
+
+  /* font-family: 'Audiowide', cursive; la font family esta en el index */
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #25063F;
+}

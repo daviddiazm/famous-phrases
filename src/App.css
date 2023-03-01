@@ -1,0 +1,47 @@
+:root {
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+}
+
+
+.App {
+  /* background-image: url(./assets/img/09d6cdfca4c804329824a3e7bb3b2971.jpg); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.planetSvg {
+  /* height: 500px;
+  width: 500px; */
+
+  height: 70%;
+  position: absolute;
+  bottom: 0px;
+
+  background-repeat: no-repeat;
+	background-position: center;
+	/* background-size: cover; */
+}
+
+.card {
+  position: relative;
+  z-index: 5;
+  padding: 2em;
+}
+
+.buttom__changer {
+  position: relative;
+  z-index: 5;
+}
