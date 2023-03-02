@@ -9,6 +9,12 @@ div {
 }
 
 
+h1 {
+  font-family: "Digital-Numbers";
+  margin: 0;
+}
+
+
 .App {
   background-image: url(public\img\09d6cdfca4c804329824a3e7bb3b2971.jpg);
 	background-repeat: no-repeat;
@@ -17,11 +23,13 @@ div {
 
   width: 100vw;
   height: 100vh;
+  padding-top: 20vh;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  gap: 2vh;
 
 }
 
@@ -51,6 +59,9 @@ div {
 .buttom__changer {
   position: relative;
   z-index: 5;
+  padding: 0%;
+  background-color: transparent;
+  font-size: 40px;
 }
 /* 
 .hola {

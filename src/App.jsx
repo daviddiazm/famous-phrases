@@ -28,6 +28,7 @@ function App() {
   return (
     <div className="App" style={{backgroundImage: `url(${imgJson[fondo].img})`}}>
       <img src={laCosaSvg} alt={`Planet ${fondo}`} className="planetSvg"/>
+      <h1>INFOGLAXY</h1>
       <Card phrasesInfo={phrases[phraseViwe]}/>
       <Button changePhrase = {changePhraseAndFondo}/>
     </div>
