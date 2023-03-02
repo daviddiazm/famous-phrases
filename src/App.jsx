@@ -15,10 +15,14 @@ function App() {
     const newPhrase = Math.round(Math.random()*100);
     setphraseViwe(newPhrase)
 
-    const newFondo = Math.floor(Math.random()*4);
+    let newFondo = Math.floor(Math.random()*4);
+    while (newFondo === fondo) {
+      newFondo = Math.floor(Math.random()*4)
+    }
     setFondo(newFondo)
 
     // const
+    
   }
 
 
