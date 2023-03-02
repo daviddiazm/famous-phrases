@@ -1,3 +1,5 @@
+
+
 :root {
   overflow: hidden;
 }
@@ -8,7 +10,7 @@ div {
 
 
 .App {
-  background-image: url(./assets/img/09d6cdfca4c804329824a3e7bb3b2971.jpg);
+  background-image: url(public\img\09d6cdfca4c804329824a3e7bb3b2971.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -45,3 +47,9 @@ div {
   position: relative;
   z-index: 5;
 }
+/* 
+.hola {
+  width: 300px;
+  height: 300px;
+  background-image: url("/public/img/09d6cdfca4c804329824a3e7bb3b2971.jpg");
+} */

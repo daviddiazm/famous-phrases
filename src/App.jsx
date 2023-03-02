@@ -20,16 +20,15 @@ function App() {
       newFondo = Math.floor(Math.random()*4)
     }
     setFondo(newFondo)
-
-    // const
     
   }
 
 
   
   return (
-    <div className="App" >
+    <div className="App" style={{backgroundImage: `url(/public/img/${imgJson[fondo].img})`}}>
       <img src={laCosaSvg} alt={`Planet ${fondo}`} className="planetSvg"/>
+      <img src="" alt="" />
       <Card phrasesInfo={phrases[phraseViwe]}/>
       <Button changePhrase = {changePhraseAndFondo}/>
     </div>
